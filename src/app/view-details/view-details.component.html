@@ -1,10 +1,10 @@
-<div *ngIf="hero">
-  <h2>{{ hero.name | uppercase }} Details</h2>
-  <div><span>id: </span>{{hero.id}}</div>
+<div>
+  <h2>{{ heroDetails.name | uppercase }} Details</h2>
+  <div><span>id: </span>{{heroDetails.id}}</div>
   <div>
     <label>name:
-      <input [(ngModel)]="hero.name" placeholder="name"/>
+      <input [(ngModel)]="heroDetails.name" placeholder="name"/>
     </label>
   </div>
-  <button (click)="saveDetails(hero)">Save Details</button>
+  <button (click)="saveDetails(heroDetails)">Save Details</button>
 </div>
