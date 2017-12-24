@@ -11,4 +11,10 @@
   </table>
 </div>
 
-<app-view-details [hero] = heroDetails></app-view-details>
+<div *ngIf = "heroDetails">
+  <a routerLink="/viewDetails/{{heroDetails.id}}">View Details</a>
+</div>
+
+<div>
+  <button (click)="goBack()">Back</button>
+</div>
