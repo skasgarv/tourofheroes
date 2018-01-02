@@ -17,7 +17,7 @@ import { TestcasesComponent } from './testcases/testcases.component';
     HeroListComponent,
     ViewDetailsComponent,
     DashboardComponent,
-    TestcasesComponent
+    TestcasesComponent,
   ],
   imports: [
     MDBBootstrapModule.forRoot(),
