@@ -26,6 +26,10 @@ const routes: Routes = [
   {
     path: "testCases",
     component: TestcasesComponent
+  },
+  {
+    path: 'lazyComponent',
+    loadChildren: "./lazy-component/lazymodule#LazyModule"
   }
 ];
 @NgModule({
