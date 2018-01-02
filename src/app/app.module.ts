@@ -9,13 +9,15 @@ import { HeroesService } from './heroes.service';
 import { ViewDetailsComponent } from './view-details/view-details.component';
 import { AppRoutingModule } from './/app-routing.module';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { TestcasesComponent } from './testcases/testcases.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeroListComponent,
     ViewDetailsComponent,
-    DashboardComponent
+    DashboardComponent,
+    TestcasesComponent
   ],
   imports: [
     MDBBootstrapModule.forRoot(),
