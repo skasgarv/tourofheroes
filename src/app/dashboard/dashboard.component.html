@@ -1,0 +1,9 @@
+
+<div class="card card-dark">
+    <div class="card-body">
+        <h4 class="card-title">Top Heroes</h4>
+        <li *ngFor="let hero of topHeroes">
+          <a class="btn btn-primary waves-light" routerLink="/viewDetails/{{hero.id}}" mdbRippleRadius>{{hero.name}} </a>
+        </li>
+    </div>
+</div>
